@@ -1,0 +1,50 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.bump {
+    width:10%;
+}
+
+.bump2 {
+    width:80%;
+}
+
+@media screen and (max-width: 1000px) {
+    .bump {
+        width:0%;
+    }
+    
+    .bump2 {
+        width:100%;
+    }   
+}
+
+@media screen and (min-width: 2100px) {
+    .bump {
+        width:15%;
+    }
+    
+    .bump2 {
+        width:70%;
+    }   
+}
+
+.myCard {
+    /* padding:10px;
+    border:1px solid #2f2f2f;
+    border-radius:2px;
+    margin:5px; */
+    /* border:1px solid #2f2f2f; */
+    padding:10px;
+}
+
+.btnMain{
+    background-color:#02A7E3;
+    color:white;
+}
+
+.btnMain:hover{
+    background-color:rgb(55, 187, 235);
+    color:white;
+}

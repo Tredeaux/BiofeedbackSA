@@ -1,0 +1,18 @@
+.button_1 {
+    text-align:center;
+    border: 1px solid #02a7e3;
+    padding:7px;
+    background-color:#02a7e3;
+    text-decoration:none;
+    color:white;
+    border-radius:5px;
+    transition:0.3s;
+}
+
+.button_1:hover {
+    text-decoration: none;
+    background-color:white;
+    color:#02a7e3;
+    cursor:pointer;
+    transition:0.3s;
+}
